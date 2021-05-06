@@ -1,0 +1,11 @@
+C:\Users\reusc\source\repos\TERRAPUERTO\Capa2_Aplicacion\obj\Debug\Capa2_Aplicacion.csprojAssemblyReference.cache
+C:\Users\reusc\source\repos\TERRAPUERTO\Capa2_Aplicacion\obj\Debug\Capa2_Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\reusc\source\repos\TERRAPUERTO\Capa2_Aplicacion\bin\Debug\Capa2_Aplicacion.dll
+C:\Users\reusc\source\repos\TERRAPUERTO\Capa2_Aplicacion\bin\Debug\Capa2_Aplicacion.pdb
+C:\Users\reusc\source\repos\TERRAPUERTO\Capa2_Aplicacion\bin\Debug\Capa3_Dominio.dll
+C:\Users\reusc\source\repos\TERRAPUERTO\Capa2_Aplicacion\bin\Debug\Capa4_Persistencia.dll
+C:\Users\reusc\source\repos\TERRAPUERTO\Capa2_Aplicacion\bin\Debug\Capa3_Dominio.pdb
+C:\Users\reusc\source\repos\TERRAPUERTO\Capa2_Aplicacion\bin\Debug\Capa4_Persistencia.pdb
+C:\Users\reusc\source\repos\TERRAPUERTO\Capa2_Aplicacion\obj\Debug\Capa2_Aplicacion.csproj.CopyComplete
+C:\Users\reusc\source\repos\TERRAPUERTO\Capa2_Aplicacion\obj\Debug\Capa2_Aplicacion.dll
+C:\Users\reusc\source\repos\TERRAPUERTO\Capa2_Aplicacion\obj\Debug\Capa2_Aplicacion.pdb

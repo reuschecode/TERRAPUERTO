@@ -6,16 +6,28 @@ using System.Threading.Tasks;
 
 namespace Capa3_Dominio.Entidades
 {
-    class Pasaje
+    public class Pasaje
     {
-        private string idAsiento;
-        private string idComprobante;
         private string idPasaje;
-        private string idViaje;
+        private Cliente cliente;
+        private Viaje viaje;
+        private DateTime fecha;
+        private int numeroDeAsiento;
 
-        public string IdAsiento { get => idAsiento; set => idAsiento = value; }
-        public string IdComprobante { get => idComprobante; set => idComprobante = value; }
         public string IdPasaje { get => idPasaje; set => idPasaje = value; }
-        public string IdViaje { get => idViaje; set => idViaje = value; }
+        public DateTime Fecha { get => fecha; set => fecha = value; }
+        public int NumeroDeAsiento { get => numeroDeAsiento; set => numeroDeAsiento = value; }
+        public Viaje Viaje { get => viaje; set => viaje = value; }
+        public Cliente Cliente { get => cliente; set => cliente = value; }
+
+        public double CalcularDescuento()
+        {
+            return 0.0;
+        }
+
+        public double CalcularPrecio()
+        {
+            return 0.0;
+        }
     }
 }

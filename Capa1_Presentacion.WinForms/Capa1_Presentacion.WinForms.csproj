@@ -46,14 +46,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FormMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProcesoVentaPasaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProcesoVentaPasaje.Designer.cs">
+      <DependentUpon>FormProcesoVentaPasaje.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProcesoVentaPasaje.resx">
+      <DependentUpon>FormProcesoVentaPasaje.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -75,6 +87,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capa2_Aplicacion\Capa2_Aplicacion.csproj">
+      <Project>{5a36754a-d0c8-449b-a231-45fbce44ebdd}</Project>
+      <Name>Capa2_Aplicacion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capa3_Dominio\Capa3_Dominio.csproj">
+      <Project>{e137956c-c09c-4e43-b05e-af5f40d80b35}</Project>
+      <Name>Capa3_Dominio</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
